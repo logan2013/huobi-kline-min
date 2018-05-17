@@ -14,7 +14,7 @@ import java.math.BigDecimal;
  **/
 @Data
 @Entity
-@Table(name = "bchusdt2_min")
+@Table(name = "bchusdt_min")
 public class BchUsdtMin {
 
     @Id

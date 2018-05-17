@@ -52,12 +52,12 @@ public class MinListener {
         minKlineService.scheduledOmg2Usdt();
         minKlineService.scheduledEtc2Usdt();
         minKlineService.scheduledDash2Usdt();
-        // 数据库之前有这些的数据，不操做
-        /*minKlineService.scheduledLtc2Usdt();*/
-        /*minKlineService.scheduledXrp2Usdt();*/
-        /*minKlineService.scheduledEos2Usdt();*/
-        /*minKlineService.scheduledEth2Usdt();*/
-        /*minKlineService.scheduledBtc2Usdt();*/
-        /*minKlineService.scheduledBch2Usdt();*/
+        // 数据库之前有这些的数据
+        minKlineService.scheduledLtc2Usdt();
+        minKlineService.scheduledXrp2Usdt();
+        minKlineService.scheduledEos2Usdt();
+        minKlineService.scheduledEth2Usdt();
+        minKlineService.scheduledBtc2Usdt();
+        minKlineService.scheduledBch2Usdt();
     }
 }
